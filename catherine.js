@@ -7,9 +7,24 @@ function linked(){
 
 function accept(){
 
+    let accept_value = document.getElementById("yes");
+    let nobtn = document.getElementById("no");
+
+    accept_value.value = "1";
+
+    console.log(accept_value.value);
     
     document.getElementById("image").style.backgroundImage = "url(lovecat.gif)"
     document.getElementById("myInvitation").innerHTML = "I love you!!!"
+
+    if (accept_value.value === "1"){
+
+
+        nobtn.remove();
+        accept_value.remove();
+    }
+
+    
 
 
 }
