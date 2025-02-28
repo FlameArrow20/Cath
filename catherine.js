@@ -100,7 +100,7 @@ function decline(){
 
         //document.getElementById("no").textContent = "Look at the invitation message >:(";
 
-        document.getElementById("image").style.backgroundImage = "url(D:/angrycat.gif)"
+        document.getElementById("image").style.backgroundImage = "url(angrycat.gif)"
         document.getElementById("myInvitation").textContent = "Time to cut your pp, then";
 
         document.getElementById("yes").remove();
