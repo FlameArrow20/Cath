@@ -1,0 +1,39 @@
+h1 {
+
+font-style: italic;
+
+
+}
+
+.cat {
+
+    
+    background-image: url("D:/heartcat.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    height: 250px;  
+
+}
+
+#yes{
+
+    font-size: 15px;
+    font-style: italic;
+    background-color:  pink;
+    width: 100px;
+
+}
+
+
+#no{
+
+    font-size: 15px;
+    background-color:  red;
+    color: white;
+    width: 100px;
+
+}
+
+
