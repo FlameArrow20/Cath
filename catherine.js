@@ -8,7 +8,7 @@ function linked(){
 function accept(){
 
     
-    document.getElementById("image").style.backgroundImage = "url(D:/lovecat.gif)"
+    document.getElementById("image").style.backgroundImage = "url(lovecat.gif)"
     document.getElementById("myInvitation").innerHTML = "I love you!!!"
 
 
